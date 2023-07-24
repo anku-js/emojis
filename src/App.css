@@ -103,7 +103,6 @@ body {
   padding: 30px;
   margin-top: 65px;
   width: 20%;
-  /* background-color: #292e40; */
 }
 .select-category {
   color: #fff;
@@ -125,6 +124,7 @@ body {
   gap: 14px;
   font-size: 16px;
   font-weight: 380;
+  cursor: pointer;
 }
 .category-input {
   color-scheme: light dark;
@@ -239,6 +239,7 @@ body {
 }
 .pageNumber-info {
   color: #fff;
+  font-size: 14px;
   text-align: center;
 }
 .hellip {

@@ -101,9 +101,9 @@ export default function App() {
               {categories.map((category) => (
                 <li key={category}>
                   {" "}
-                  <label className="category-label" htmlFor="emojis">
+                  <label className="category-label" >
                     <input
-                      onChange={filterCategory}
+                      onChange={filterCategory} 
                       type="radio"
                       className="category-input"
                       id="emojis"

@@ -101,7 +101,7 @@ export default function App() {
               {categories.map((category) => (
                 <li key={category}>
                   {" "}
-                  <label className="category-label" >
+                  <label className="category-label">
                     <input
                       onChange={filterCategory} 
                       type="radio"
@@ -165,11 +165,11 @@ export default function App() {
                     number > minPageNumberLimit
                   ) {
                     return (
-                      <div className="pagenation-numbers" key={number}>
+                      <div  key={number}>
                         <span
                           key={number}
                           className={
-                            page === number ? "pagination__selected" : ""
+                            page === number ? "pagination__selected" : "pagenation-numbers"
                           }
                           onClick={() => selectPageHandler(number)}
                         >
